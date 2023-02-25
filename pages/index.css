@@ -42,6 +42,9 @@
     line-height: 20px;
 }
 
+.nav__link{
+
+}
 
 
 .header__span-accent{
@@ -114,7 +117,7 @@ position: absolute;
 margin-bottom: 40px;
 }
 
-
+.content{}
 
 .recipes{
     background-image: url(../images/background_recipes.svg);
@@ -151,14 +154,10 @@ line-height: 52px;
     justify-content:center;
     gap: 40px;
    margin: auto;
+   padding-bottom: 215px;
 
 }
 
-.recipes__iframe{
-   
-    margin-bottom: 215px;
-
-}
 
 .recipes__video-caption{
     font-family: "Inter";
@@ -167,3 +166,10 @@ line-height: 52px;
     font-size: 20px;
     line-height: 30px;
 }
+.reservation{}
+
+.menu{}
+
+.about{}
+
+.footer{}
