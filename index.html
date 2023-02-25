@@ -17,12 +17,80 @@
 </head>
 <body>
     <div class="page">
-    <header class="header"></header>
+    <header class="header">
+<img src="images/logo_coffee_shop.svg" class="logo"/>
+    <nav class="nav">
+       
+        <ul class="nav__links">
+            <li>
+              <a href="#menu" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a  href="#recipes" class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a href="#book-a-table" class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+
+          </ul>
+    </nav>
+  <span class="header__title"><h1 class="header__title header__span-accent">Specialty coffee 
+   </h1>
+   <h1 class="header_subtitle">in the Practicum Library
+</h1> </span>
+   <p class="header__description">
+    Welcome to our study zone! We've got the coffee to energize you and 
+    the cozy vibes to help you get creative.
+</p>
+
+    <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the coffeeshop'"
+          class="header__image"
+        />
+        <div class="header__footer">
+            <a class="header__footer-heading"
+              >Hours: </a
+            ><ul class="footer__list">
+                <li class="footer__list-item">Weekdays: 9am-8pm</li>
+                <li class="footer__list-item">Weekdays: 10am-6pm</li>
+              </ul>
+              <p class="header__address">
+                200 Success Avenue, The Town of Practicum
+              </p>
+        </div>
+        </header>
+       
+</header>
     <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+
+        <section id="recipes" class="recipes">
+
+            <div class="recipes__title"><h2>Recipes</h2></div>
+            <div class="recipes__subtitle"><p>Check out some recipes we've collected for your home-brewing convenience:</p></div>
+            <div class="recipes__videos">
+                <div class="recipes__iframe">
+                <iframe width="480" height="273" src="https://www.youtube.com/embed/EPrTzKXqml8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="recipes__video-caption"> Baked Spaghetti recipe
+                    ~8 min</p>
+                </div>
+                <div>
+                    <iframe width="480" height="273" src="https://www.youtube.com/embed/F0pCrXcaxnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="recipes__video-caption"> Peach Cobbler Pound Cake recipe
+                        ~8 min</p>
+                    </div>
+                 </div>
+
+                </div>
+         
+        </section>
+
+        <section id="book-a-table" class="reservation"></section>
+        <section id="menu" class="menu"></section>
+        <section id="contacts" class="about"></section>
     </main>
     <footer class="footer"></footer>
 </div>
