@@ -28,9 +28,6 @@
    
 }
 
-.nav {
-
-}
 
 .nav__links{
     display: flex;
@@ -45,9 +42,6 @@
     line-height: 20px;
 }
 
-.nav__link{
-
-}
 
 
 .header__span-accent{
@@ -65,7 +59,7 @@
     
 }
 
-.header_subtitle{
+.header__subtitle{
    
     margin-left: 80px;
     font-family: "Inter";
@@ -106,7 +100,7 @@ line-height: 30px;
   
 }
 
-.footer__list{
+.header__footer-list{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -120,7 +114,7 @@ position: absolute;
 margin-bottom: 40px;
 }
 
-.content{}
+
 
 .recipes{
     background-image: url(../images/background_recipes.svg);
@@ -173,10 +167,3 @@ line-height: 52px;
     font-size: 20px;
     line-height: 30px;
 }
-.reservation{}
-
-.menu{}
-
-.about{}
-
-.footer{}
