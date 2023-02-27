@@ -90,9 +90,29 @@
          
         </section>
 
-        <section id="book-a-table" class="reservation"><h2>Reservation</h2></section>
+        <section id="book-a-table" class="reservation">
+        <h2><label class="reservation__title">Book a Table</label></h2>
+        <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+                <p class="form__label">Name*</p>
+                <input class="form__input" type="text" name="firstname" placeholder="Name Surname">
+          
+                <p class="form__label">Number of guests*</p>
+                <input class="form__input" type="number" min="1" max="8" name="number" placeholder="1-8">
+            
+                <p class="form__label">Date & time*</p>
+                <input class="form__input" type="datetime-local">
+                
+                <p class="form__label">Email*</p>
+                <input class="form__input" type="email" name="email" placeholder="email@email.com">
 
-        
+                <button class="form__buttom" type="button" >Book a table</button>
+                
+                <label id="checkbox" class="form__label form__checkbox"><input class="form__input" type="checkbox"> I agree with the terms of use</label> 
+            </fieldset>
+        </form>
+    </section>
+
         <section id="menu" class="menu"><h2>Menu</h2></section>
         <section id="contacts" class="about"><h2>About</h2></section>
     </main>
