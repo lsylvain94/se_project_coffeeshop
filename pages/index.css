@@ -1,7 +1,7 @@
 .page{
     min-width: 1100px;
     max-width: 1600px; 
-    margin: auto;
+    margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
@@ -169,22 +169,25 @@ line-height: 52px;
     line-height: 30px;
 }
 
-.reservation { background-color: #D9E7FF;
+.reservation { 
+    display: flex;
+    flex-direction: column;
+    background-color: #D9E7FF;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: url(../images/background_reservation.svg);}
 
     .reservation__title{
-        display: flex;
-        justify-content: center;
-        padding-top: 100px;
+        margin-top: 100px;
     margin-bottom: 80px;
     font-family: Inter;
 font-style: normal;
 font-weight: 500;
 font-size: 44px;
 line-height: 52px;
+display: flex;
+justify-content: center;
 
     }
 
