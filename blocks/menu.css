@@ -31,6 +31,7 @@ text-align: center;
     line-height: 30px;
 }
 
+
 .menu__cards{
     display: flex;
     flex-wrap: wrap;
@@ -40,31 +41,33 @@ text-align: center;
     
 }
 
+.card__title{
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    
+    }
+
 
 .card__list-item{
   list-style-type: none;
-  gap: 16px;
     font-family: "noto serif";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
+
     flex-grow: 1;
  
 }
 
-.card__title{
-margin-bottom: 32px;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 30px;
-
-}
 
 .card__list-divider{
-   display: flex;
+   border-bottom: solid;
+  
+   
    
    
 }
